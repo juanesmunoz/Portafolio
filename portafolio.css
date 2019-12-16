@@ -1,0 +1,88 @@
+* {
+  font-family: verdana;
+  color: #414141;
+}
+
+.back { 
+  min-height: 600px;
+  margin: 40px;
+  display: block;
+  background-color: #CBD5C1;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+  z-index: 0;
+}
+
+.back::before {
+  content: "";
+  background-image: url("https://applink.io/assets/img/roles/developer.png");
+  background-repeat: no-repeat;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-position: 50% 0;
+  z-index: -1;
+}
+
+.centrar {
+  display: flex;
+  justify-content: center;
+  width: 100%; 
+}
+
+.pres {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 10px;
+  line-height: 1.5;
+  z-index: 1; 
+}  
+.pres h1 {
+  text-shadow: 2px 2px 5px #8C8C8C;
+}
+
+.juan {
+  position: absolute;
+  left: 80px;
+  top: 50px;
+  vertical-align: middle;
+  display: inline-block;
+  background-image: url(https://lh3.googleusercontent.com/Y9hKUKUueovPs0XHzPY_M5CI52BUWT33qC1gn_Uf4CuQmJt28LHYeRdbrzuj3Kd9PnnRIJ3odlUzivjLF6WZqDDeIHRFNJ_Nw6dKAmbY5NuEwAF9dmN9SMPgItIg1HpCkaTc4OGtduo=w150);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+  z-index: 2;
+}
+
+.text {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 15px 10px;
+  z-index: 1;
+}
+
+.contacto {
+  margin: 0;
+  line-height: 1;
+  font-size: 0.8em;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+
+
+  
+
+
+
+
